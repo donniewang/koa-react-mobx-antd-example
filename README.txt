@@ -11,13 +11,14 @@
 
 ## Build
 <p>1. git clone</p>
-<p>2. cmd: npm install</p>
-<p>3. cmd: npm run build</p>
-<p>4. cmd: npm run start</p>
-<p>5. go to http://localhost:3000</p>
+<p>2. database config in config.json</p>
+<p>3. cmd: npm install</p>
+<p>4. cmd: npm run build</p>
+<p>5. cmd: npm run start</p>
+<p>6. go to http://localhost:3000</p>
 
 ## Hot Module Replacement
-<p>6. cmd: npm run debug</p>
+<p>7. cmd: npm run debug</p>
 
 ## LICENSE
 MIT
