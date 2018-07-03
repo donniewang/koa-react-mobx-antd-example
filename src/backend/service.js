@@ -1,4 +1,4 @@
-const database = require('./database');
+const database = require('../database');
 
 exports.load = async (model,id) => {
     return await database[model].findById(id);
@@ -17,10 +17,10 @@ exports.create = async (model,obj) => {
 }
 
 exports.remove = async (model,options) => {
-    return await database[model].destory(options);
+    return await database[model].destroy(options);
 }
 
 exports.update = async (model,options,obj) => {
     let orm = await database[model].findOne(options);
-    return await database[model].update({ ...orm,...obj });
+    return await database[model].update({ ...orm,...obj },options);
 }
