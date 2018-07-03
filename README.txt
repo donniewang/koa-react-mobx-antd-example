@@ -2,12 +2,12 @@
 
 ## 功能
 <p>1. react</p>
-<p>1. mobx</p>
-<p>1. parcel</p>
-<p>3. koa</p>
-<p>4. sequelize</p>
-<p>5. antd</p>
-<p>6. HighCharts</p>
+<p>2. mobx</p>
+<p>3. parcel</p>
+<p>4. koa</p>
+<p>5. sequelize</p>
+<p>6. antd</p>
+<p>7. HighCharts</p>
 
 ## Build
 <p>1. git clone</p>
