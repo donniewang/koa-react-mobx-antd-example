@@ -1,0 +1,52 @@
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.top {
+    width: 100%;
+    height: 80px;
+    background-color: #4d5256;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 15px;
+}
+
+.top div:first-child {
+    flex:1
+}
+
+.top div:last-child {
+    width:160px;
+    text-align: right;
+}
+
+.top div:last-child span {
+    font-size:11pt;
+}
+
+.top div span {
+    font-size: 18pt;
+    color: #ffffff;
+}
+
+.content {
+    flex:9;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 160px;
+    height: 100%;
+    background-color: #363b3f;
+}
+
+.right {
+    flex:9;
+    padding: 10px;
+}

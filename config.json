@@ -1,0 +1,33 @@
+{
+    "server" : {
+        "port" : 3000
+    },
+    "database" : {
+        "host":"127.0.0.1",
+        "dialect": "mysql",
+        "dialectOptions": {
+            "charset": "utf8mb4",
+            "collate": "utf8mb4_unicode_ci",
+            "supportBigNumbers": true,
+            "bigNumberStrings": true
+        },
+        "logging": true,
+        "freezeTableName": true,
+        "operatorsAliases": false,
+        "pool": {
+            "max":10,
+            "min":0,
+            "idle":10000
+        },
+        "define": {
+            "underscored": true,
+            "charset": "utf8mb4"
+        },
+        "user":"root",
+        "password":"root",
+        "db":"demo"
+    },
+    "jwt" : {
+        "secret" : "test"
+    }
+}
